@@ -119,7 +119,8 @@ img {
   position: relative;
   margin-left: 18%;
   margin-right: 18%;
-  justify-content: center;
+  justify-content: left;
+  text-align: left;
 }
 
 .footer {
@@ -217,14 +218,21 @@ img {
     width: 82vw;
   }
 
+  .bar-item1 {
+    padding: 8px 8px;
+  }
+
   .image-man {
     width: 82vw;
   }
 
   .about-me p {
-    width: 60vw;
+    /* width: 64vw; */
+    width: 100%;
     text-align: center;
-    margin: 9vw;
+    justify-content: center;
+    /* margin-left: 4vw; */
+    /* margin-right: 4vw; */
   }
 
   .footrow {
@@ -232,22 +240,17 @@ img {
     width: 82vw;
     flex-direction: column;
     margin-left: 9%;
-    align-items: center;
-    text-align: center;
+    align-items: left;
+    text-align: left;
     margin-right: 9%;
   }
 
   .tag-text {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     line-height: 0;
     font-size: 13px;
-    align-items: center;
-  }
-
-  .picture {
-    width: 20vw;
+    align-items: left;
   }
 
   .footer {
