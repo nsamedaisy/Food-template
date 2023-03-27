@@ -219,7 +219,7 @@ img {
   }
 
   .bar-item1 {
-    padding: 8px 8px;
+    padding: 8px;
   }
 
   .image-man {
@@ -227,12 +227,9 @@ img {
   }
 
   .about-me p {
-    /* width: 64vw; */
     width: 100%;
     text-align: center;
     justify-content: center;
-    /* margin-left: 4vw; */
-    /* margin-right: 4vw; */
   }
 
   .footrow {
