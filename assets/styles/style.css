@@ -34,7 +34,7 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .row {
@@ -114,12 +114,10 @@ img {
 
 .footrow {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   width: 64vw;
   position: relative;
-  margin-left: 18%;
-  margin-right: 18%;
-  justify-content: left;
+  margin: auto;
   text-align: left;
 }
 
@@ -186,7 +184,7 @@ img {
   border-top: 0.5px solid #eee;
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 768px) {
   .main-content {
     width: 82vw;
     align-items: center;
@@ -236,10 +234,9 @@ img {
     display: flex;
     width: 82vw;
     flex-direction: column;
-    margin-left: 9%;
     align-items: left;
     text-align: left;
-    margin-right: 9%;
+    margin: auto;
   }
 
   .tag-text {
